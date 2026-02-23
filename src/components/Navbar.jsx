@@ -30,10 +30,10 @@ const Navbar = ({ theme, setTheme }) => {
         {/* logo */}
         <a href="#">
           <img loading="eager" fetchpriority="high"
-            src={theme === "dark" ? assets.lightLogo : assets.darkLogo}
+            src={theme === "dark" ? assets.techlightLogo : assets.techdarkLogo}
             alt="logo"
             draggable="false"
-            className="max-w-32 md:max-w-36 "
+            className="max-w-32 md:max-w-36"
           />
         </a>
         {/* sidebar toggle button */}

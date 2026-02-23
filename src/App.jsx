@@ -8,6 +8,7 @@ import OurTeam from './components/OurTeam';
 import ContactUs from './components/ContactUs';
 import { Toaster } from 'react-hot-toast';
 import Footer from './components/Footer';
+import Testimonial from './components/Testimonisl';
 
 const App = () => {
   
@@ -59,7 +60,8 @@ const App = () => {
           {/* <TrustedBy /> */}
           <Services />
           <OurWork />
-          <OurTeam />
+          {/* <OurTeam /> */}
+          <Testimonial />
           <ContactUs />
           <Footer theme={theme} />
           {/* custom cursor ring */}

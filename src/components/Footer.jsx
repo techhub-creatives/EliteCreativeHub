@@ -27,13 +27,14 @@ const Footer = ({ theme }) => {
                         {/* logo */}
                         <a href="#">
                             <img loading="lazy"
-                                src={theme === "dark" ? assets.lightLogo : assets.darkLogo}
+                                // src={theme === "dark" ? assets.lightLogo : assets.darkLogo}
+                                src={theme === "dark" ? assets.techlightLogo : assets.techdarkLogo}
                                 alt="logo"
                                 draggable="false"
-                                className="max-w-32 "
+                                className="max-w-32"
                             />
                         </a>
-                        <p className='text-left lg:text-base w-[75%] md:w-[90%] lg:w-[50%]'>From strategy to execution, we craft digital solutions that move your business forward.</p>
+                        <p className='text-left lg:text-base w-[75%] md:w-[90%] lg:w-[50%]'>Building brands that people see, remember, and trust.</p>
                         <div className='flex gap-4 text-sm md:text-base mt-2'>
                             {navItems.map((item, index) => {
                                 return (
@@ -72,7 +73,7 @@ const Footer = ({ theme }) => {
                     className='flex flex-col '>
                     <hr className='border-t-secondary/40 my-4 md:my-6' />
                     <div className='flex flex-col gap-3 md:gap-0 items-center md:flex-row md:justify-between'>
-                        <div className='text-text-secondary/60 dark:text-light-text-dull text-sm'>Copyright 2026 © Growvia.ai  -  All Right Reserved.</div>
+                        <div className='text-text-secondary/60 dark:text-light-text-dull text-sm'>Copyright 2026 © theelitecreativehub  -  All Right Reserved.</div>
                         <div className='flex items-center gap-3'>
                             {socialMedia.map((item, index) => (
                                 <a key={index} href={item.link}>

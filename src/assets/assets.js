@@ -4,6 +4,8 @@ import heroImage from "./Hero.png";
 import saasPerformance from "./SaaS-Performance.webp";
 import darkLogo from "./Logo dark.svg";
 import lightLogo from "./Logo light.svg";
+import techdarkLogo from "./tech-logo-dark.svg";
+import techlightLogo from "./tech-logo-white.svg";
 
 import blueGradientDark from "./blue-gradient-dark.svg";
 import greenGradientDark from "./green-gradient-dark.svg";
@@ -30,6 +32,7 @@ import man4 from "./people/man4.jpg";
 import man5 from "./people/man5.jpg";
 import man10 from "./people/man10.jpg";
 import Harman from "./people/me-formal-side.jpg";
+import nophoto from "./people/Nophoto.png";
 
 import Github from "./social-media/github.svg"
 import Linkedin from "./social-media/linkedin.svg"
@@ -49,6 +52,8 @@ import analytics from "./analytics-graph-chart-svgrepo-com.svg";
 export const assets = {
     lightLogo,
     darkLogo,
+    techdarkLogo,
+    techlightLogo,
     heroImage,
     appLaunch,
     eCommerce,
@@ -171,6 +176,21 @@ export const teamData = [
         "name": "Olivia Bennett",
         "title": "Senior Analyst",
         "image": girl8
+    }
+];
+
+export const testimonial = [
+    {
+        "name": "Sarah K.",
+        "title": "Owner, EcoLife Goods",
+        "image": nophoto,
+        "paragraph": '"Working with The Elite Creative Hub was a game-changer. Our brand finally looks as professional as the service we provide. We saw a 30% increase in qualified leads within two months."'    
+    },
+    {
+        "name": "David M.",
+        "title": "Director, TechFlow Solutions",
+        "image": nophoto,
+        "paragraph": '"Working with The Elite Creative Hub was a game-changer. Our brand finally looks as professional as the service we provide. We saw a 30% increase in qualified leads within two months."'
     }
 ];
 
