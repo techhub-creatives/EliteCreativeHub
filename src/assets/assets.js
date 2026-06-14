@@ -6,6 +6,8 @@ import darkLogo from "./Logo dark.svg";
 import lightLogo from "./Logo light.svg";
 import techdarkLogo from "./tech-logo-dark.svg";
 import techlightLogo from "./tech-logo-white.svg";
+import techlightLogopng from "./techlightLogopng.png";
+import techdarkLogopng from "./techdarkLogopng.png";
 
 import blueGradientDark from "./blue-gradient-dark.svg";
 import greenGradientDark from "./green-gradient-dark.svg";
@@ -60,7 +62,9 @@ export const assets = {
     saasPerformance,
     blueGradientDark,
     greenGradientDark,
-    trustedPeople
+    trustedPeople,
+    techdarkLogopng,
+    techlightLogopng,
 }
 
 export const company_logos = [

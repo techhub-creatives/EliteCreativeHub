@@ -3,11 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/tech-favicon.svg" />
+
+    <link
+      rel="stylesheet"
+      href="https://sibforms.com/forms/end-form/build/sib-styles.css"
+    />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TheEliteCreativeHub - Building brands that people see, remember, and trust.</title>
+
+    <title>
+      TheEliteCreativeHub - Building brands that people see, remember, and
+      trust.
+    </title>
   </head>
+
   <body>
     <div id="root"></div>
+
+    <script>
+      window.REQUIRED_CODE_ERROR_MESSAGE = "Please choose a country code";
+      window.LOCALE = "en";
+      window.EMAIL_INVALID_MESSAGE =
+        "The information provided is invalid. Please review the field format and try again.";
+      window.SMS_INVALID_MESSAGE =
+        "The information provided is invalid. Please review the field format and try again.";
+      window.REQUIRED_ERROR_MESSAGE = "This field cannot be left blank. ";
+      window.GENERIC_INVALID_MESSAGE =
+        "The information provided is invalid. Please review the field format and try again.";
+      window.REQUIRED_MULTISELECT_MESSAGE = "Please select at least 1 option";
+      window.translation = {
+        common: {
+          selectedList: "{quantity} list selected",
+          selectedLists: "{quantity} lists selected",
+          selectedOption: "{quantity} selected",
+          selectedOptions: "{quantity} selected",
+        },
+      };
+      var AUTOHIDE = Boolean(0);
+    </script>
+
+
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
