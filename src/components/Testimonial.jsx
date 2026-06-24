@@ -5,7 +5,7 @@ import { testimonial } from '../assets/assets'
 import { motion } from 'motion/react';
 const Testimonial = () => {
   return (
-    <section id="OurTeam" className='section-offset'>
+    <section id="Testimonials" className='section-offset'>
       <motion.div
         initial="hidden"
         whileInView="visible"

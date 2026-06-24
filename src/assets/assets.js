@@ -11,7 +11,7 @@ import techdarkLogopng from "./techdarkLogopng.png";
 
 import blueGradientDark from "./blue-gradient-dark.svg";
 import greenGradientDark from "./green-gradient-dark.svg";
-import trustedPeople from "./trusted-people.svg";
+import trustedPeople from "./trustedpeople2.png";
 
 import bookingLogo from "./company-logos/bookingcom-logo-svgrepo-com.svg";
 import googleLogo from "./company-logos/google_logo.svg";
@@ -81,14 +81,14 @@ export const mobileNavItems = [
     // { name: "Home", link: "#" },
     { name: "Services", link: "#Services" },
     { name: "Our Work", link: "#OurWork" },
-    { name: "Our Team", link: "#OurTeam" },
+    { name: "Testimonials", link: "#Testimonials" },
     { name: "Book a Free Call", link: "#contactUs" },
 ]
 export const navItems = [
     { name: "Home", link: "#" },
     { name: "Services", link: "#Services" },
     { name: "Our Work", link: "#OurWork" },
-    { name: "Our Team", link: "#OurTeam" },
+    { name: "Testimonials", link: "#Testimonials" },
 ]
 
 export const icons = {

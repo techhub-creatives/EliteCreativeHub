@@ -3,9 +3,10 @@ import Title from './Title'
 import { teamData } from '../assets/assets'
 // eslint-disable-next-line no-unused-vars
 import { motion } from 'motion/react';
+
 const OurTeam = () => {
   return (
-    <section id="OurTeam" className='section-offset'>
+    <section id="Testimonials" className='section-offset'>
       <motion.div
         initial="hidden"
         whileInView="visible"
