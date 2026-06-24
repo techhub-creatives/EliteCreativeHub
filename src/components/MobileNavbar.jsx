@@ -4,7 +4,7 @@ import { mobileNavItems } from "../assets/assets";
 import { motion } from "motion/react";
 
 //  ${ isOpen ? "max-h-fit opacity-100" : "max-h-0 opacity-0" }
-const MobileNavbar = ({ isOpen, navbarHeight }) => {
+const MobileNavbar = ({ isOpen, navbarHeight, setIsOpen }) => {
   return (
     <motion.div
       variants={wrapperVariants}
@@ -31,6 +31,7 @@ const MobileNavbar = ({ isOpen, navbarHeight }) => {
             href={item.link}
             variants={itemVariants}
             className="nav-items-mobile"
+            onClick={() => setIsOpen(false)}
           >
             {item.name}
           </motion.a>

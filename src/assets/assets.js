@@ -22,6 +22,7 @@ import spotifyLogo from "./company-logos/spotify-1-logo-svgrepo-com.svg";
 
 import { CiDark } from "react-icons/ci";
 import { CiLight } from "react-icons/ci";
+import { IoSunnySharp } from "react-icons/io5";
 import { HiArrowLongRight } from "react-icons/hi2";
 import { CgMenuRight } from "react-icons/cg";
 import { CgClose } from "react-icons/cg";
@@ -92,7 +93,7 @@ export const navItems = [
 
 export const icons = {
     darkIcon: CiDark,
-    lightIcon: CiLight,
+    lightIcon: IoSunnySharp,
     arrowRightIcon: HiArrowLongRight,
     menuIcon: CgMenuRight,
     closeIcon: CgClose

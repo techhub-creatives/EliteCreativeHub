@@ -81,7 +81,7 @@ const Navbar = ({ theme, setTheme }) => {
 
       {/* Mobile Navbar */}
       <div className="relative z-10">
-        <MobileNavbar isOpen={isSidebarOpen} navbarHeight={navbarHeight} />
+        <MobileNavbar isOpen={isSidebarOpen} navbarHeight={navbarHeight} setIsOpen={setIsSidebarOpen} />
       </div>
     </>
   );
