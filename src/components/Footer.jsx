@@ -158,6 +158,7 @@ const Footer = ({ theme }) => {
             </div>
           </motion.div>
         </div>
+        
         <motion.div
           initial={{ opacity: 0 }}
           // animate={{ opacity: 1 }}
